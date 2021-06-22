@@ -1,0 +1,70 @@
+.Recommended {
+    width: 100%;
+    background: rgb(243, 183, 53);
+    background: linear-gradient(0deg, rgba(243, 115, 53, 1) 0%, rgba(243, 183, 53, 1)100%);
+    margin: 6rem 0;
+    padding: 3rem 4rem;
+}
+
+.Recommended__title {
+    text-transform: uppercase;
+    font-weight: 350;
+    padding: 1rem 0;
+    font-size: xx-large;
+    margin: 2rem 0 1rem 0;
+}
+
+.Recommended__card-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 0 2rem 0;
+}
+
+
+/* recommended card styles */
+
+.Recommended__card {
+    width: 22%;
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
+
+.Recommended__img {
+    object-fit: cover;
+}
+
+.Recommended__card-title {
+    text-transform: capitalize;
+    padding: 0.8rem 0 0.3rem 0;
+    font-weight: 300;
+}
+
+.Recommended__card-price {
+    font-weight: 300;
+    padding: 0.2rem 0 0.65rem 0;
+}
+
+.Recommended__button {
+    background-color: #FBB731;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 0.0rem;
+    justify-content: space-around;
+    align-items: center;
+    border: #707070ad 1px solid;
+    width: 50%;
+    height: 28px;
+    align-self: center;
+    font-size: x-small;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Recommended__btn-img {
+    width: 1.5vw;
+}

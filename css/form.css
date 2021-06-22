@@ -1,0 +1,36 @@
+.Form {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 0.8rem;
+}
+
+.Form__inputs-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.Form__input {
+    width: 50%;
+    padding: 0.3rem 0 0.3rem 0.8rem;
+    text-align: left;
+    border: 2px solid #0C4C7B;
+}
+
+.Form__textarea {
+    padding: 0.8rem;
+    height: 35vh;
+    border: 2px solid #0C4C7B;
+}
+
+.Form_btn {
+    align-self: flex-end;
+    width: 25%;
+    border: none;
+    background-color: #FBB731;
+    color: black;
+    font-weight: normal;
+    padding: 0.5rem;
+    text-transform: uppercase;
+}

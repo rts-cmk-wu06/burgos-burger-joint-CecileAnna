@@ -1,0 +1,72 @@
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    z-index: 2;
+}
+
+
+/* logo wrapper */
+
+.Nav__logo-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    height: fit-content;
+    padding: 2.5rem 3rem;
+}
+
+.Nav__logo-figure {
+    background: linear-gradient(90deg, #FBB731 50%, transparent 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+    width: 5vw;
+    padding: 0.5rem;
+}
+
+.Nav__logo-img {
+    height: 100%;
+}
+
+.Nav__brand-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.Nav__logo-a {
+    text-decoration: none;
+    color: white;
+    font-weight: normal;
+    font-size: small;
+}
+
+
+/* navigation menu */
+
+.Nav__ul {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1rem;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    padding: 2.5rem 3rem;
+}
+
+.Nav__li {
+    font-weight: normal;
+    font-size: small;
+    text-transform: uppercase;
+}
+
+.Nav__a {
+    text-decoration: none;
+    color: white;
+}

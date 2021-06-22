@@ -1,0 +1,8 @@
+.Header {
+    display: grid;
+    height: 85vh;
+    background-image: url('../images/hero01.jpg');
+    background-size: cover;
+    background-position: center;
+    grid-template-columns: repeat(1fr, 4);
+}

@@ -1,0 +1,17 @@
+.Article {
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+}
+
+.Article__heading {
+    font-size: large;
+    font-weight: 300;
+    margin: 0 0 1rem 0;
+}
+
+.Article__p {
+    font-size: 0.70rem;
+    line-height: 1.6;
+}
